@@ -6,7 +6,10 @@ title: 我的Blog1
 　　<h2>{{ page.title }}</h2>
 
 　　<p>最新文章</p>
-
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+  <div id="gitalk-container"></div>
+{% endif %}
 　　<ul>
 
 　　　　{% for post in site.posts %}
@@ -14,5 +17,7 @@ title: 我的Blog1
 　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 
 　　　　{% endfor %}
+
+
 
 　　</ul>
