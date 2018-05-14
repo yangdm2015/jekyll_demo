@@ -3,7 +3,7 @@ gitalk:
   enable: true  # 是否开启 Gitalk 评论
   owner:  yangdm2015  # GitHub 用户名     
   repo:  https://github.com/yangdm2015/comments.git       #仓库名称
-  ClientID: 3fdb5793244e6d9d1729
-  ClientSecret: dd92eb8c0d9ef5c1e7aaf5d4c1200d8268e88c0b
+  ClientID: 0a8a6858308aaf06c70b
+  ClientSecret: e1b2ff94a87cf18ceb667cc90a57d0a090af6eae
   admin:   yangdm2015 # GitHub 用户名
   distractionFreeMode: true
